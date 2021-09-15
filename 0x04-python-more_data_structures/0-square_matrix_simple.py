@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 
 def square_matrix_simple(matrix=[]):
-    print("{}".fomart(matrix[i] * matrix[i]))
+    """ Compute the square value of all integers of a matrix"""
+    return ([[col * col for col in row] for row in matrix])
